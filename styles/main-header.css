@@ -1,0 +1,39 @@
+header {
+	@apply w-full flex items-center justify-between p-4 md:p-0 md:pt-7 md:pl-7;
+}
+
+header > nav {
+	@apply fixed top-0 bg-black bg-opacity-[30%] w-8/12 h-full p-7 transition-all duration-200 ease-linear -right-full md:relative md:right-0 md:h-20 md:p-0 md:flex md:items-center md:justify-center lg:after:content-[""] lg:after:absolute lg:after:top-1/2 lg:after:-left-[36%] lg:after:w-5/12 lg:after:h-px lg:after:bg-[#979797];
+}
+
+header > nav::after {
+	transform: 'translateY(-50%)';
+}
+
+header > nav.open {
+	@apply right-0 duration-150;
+}
+
+header > nav > button {
+	@apply mb-7 ml-auto block md:hidden;
+}
+
+header > nav > ul {
+	@apply md:h-full md:flex md:items-center md:justify-center md:space-x-10 lg:space-x-14 lg:pr-10;
+}
+
+header > nav > ul > li {
+	@apply mb-7 text-white font-barlow-condensed tracking-widest uppercase relative w-full md:mb-0 md:w-fit md:h-full md:flex md:items-center md:justify-center;
+}
+
+header > nav > ul > li.current {
+	@apply after:content-[''] after:absolute after:top-0 after:-right-7 after:w-1 after:h-full after:bg-white md:after:top-[unset] md:after:right-[unset] md:after:left-0 md:after:bottom-0 md:after:w-full md:after:h-1;
+}
+
+header > nav > ul > li > a > span:first-child {
+	@apply font-bold md:hidden lg:inline;
+}
+
+header > button {
+	@apply md:hidden;
+}

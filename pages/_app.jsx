@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 import MainLayout from '../components/layout/main';
-import '../styles/globals.css';
+import '../styles/index.css';
 
 function MyApp({ Component, pageProps }) {
 	return (

@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Vercel App](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Yellow-May/Frontend-Mentor-Space-tourism-website)
+- Live Site URL: [Vercel App](https://frontend-mentor-space-tourism-website.vercel.app/)
 
 ## My process
 

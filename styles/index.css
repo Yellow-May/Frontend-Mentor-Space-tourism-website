@@ -4,3 +4,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+#__next {
+	@apply h-full;
+}
+
+#__next > div {
+	@apply min-h-full bg-cover bg-center bg-no-repeat;
+}
+
+#__next > div.home {
+	@apply bg-home-mobile md:bg-home-tablet lg:bg-home-desktop;
+}
+#__next > div.destination {
+	@apply bg-destination-mobile md:bg-destination-tablet lg:bg-destination-desktop;
+}
+#__next > div.crew {
+	@apply bg-crew-mobile md:bg-crew-tablet lg:bg-crew-desktop;
+}
+#__next > div.technology {
+	@apply bg-technology-mobile md:bg-technology-tablet lg:bg-technology-desktop;
+}

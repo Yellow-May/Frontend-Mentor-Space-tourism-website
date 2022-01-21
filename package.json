@@ -1,6 +1,10 @@
 {
 	"name": "space-tourism-website",
 	"private": true,
+	"version": "1.0.0",
+	"repository": "https://github.com/Yellow-May/Frontend-Mentor-Space-tourism-website.git",
+	"author": "The Yellow May <yellow.may.21@gmail.com>",
+	"license": "MIT",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",

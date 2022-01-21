@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
-@import url(./main-header.css);
+@import url(./layout-header.css);
+@import url(./page-home.css);
 
 @tailwind base;
 @tailwind components;
@@ -12,9 +13,8 @@ body,
 }
 
 #__next > div {
-	@apply min-h-full bg-cover bg-center bg-no-repeat;
+	@apply min-h-full flex flex-col bg-cover bg-center bg-no-repeat;
 }
-
 #__next > div.home {
 	@apply bg-home-mobile md:bg-home-tablet lg:bg-home-desktop;
 }
@@ -26,4 +26,7 @@ body,
 }
 #__next > div.technology {
 	@apply bg-technology-mobile md:bg-technology-tablet lg:bg-technology-desktop;
+}
+#__next > div > main {
+	@apply flex-grow;
 }

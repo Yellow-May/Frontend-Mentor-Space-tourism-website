@@ -1,0 +1,27 @@
+main.home-page {
+	@apply px-[5%] py-[7.5%] flex flex-col items-center justify-between md:justify-center md:space-y-48 lg:flex-row lg:justify-between lg:items-end lg:space-y-0 lg:px-[10%];
+}
+
+main.home-page > div:first-child {
+	@apply text-center text-light-gray lg:text-left;
+}
+
+main.home-page > div:first-child > h1 {
+	@apply font-barlow-condensed uppercase tracking-[2.7px] mb-2 md:text-xl md:mb-10 md:tracking-[3.38px] lg:text-2xl lg:tracking-[4.72px] lg:mb-7;
+}
+
+main.home-page > div:first-child > h1 > span {
+	@apply block font-bellefair text-[80px] md:text-[150px] text-white leading-[100px] p-4 md:my-10 lg:px-0 lg:my-8;
+}
+
+main.home-page > div:first-child > p {
+	@apply font-barlow text-sm md:text-base leading-7 md:w-[488px] md:leading-8 lg:text-lg;
+}
+
+main.home-page > div:last-child {
+	@apply w-[150px] h-[150px] md:w-[242px] md:h-[242px] lg:w-[274px] lg:h-[274px] rounded-full bg-white flex items-center justify-center;
+}
+
+main.home-page > div:last-child > span {
+	@apply font-bellefair text-xl md:text-3xl text-fake-black uppercase tracking-[1.25px] lg:tracking-[2px];
+}

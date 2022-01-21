@@ -2,6 +2,10 @@ module.exports = {
 	content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
+			colors: {
+				'light-gray': '#D0D6F9',
+				'fake-black': '#0B0D17',
+			},
 			fontFamily: {
 				barlow: ['Barlow', 'sans-serif'],
 				'barlow-condensed': ['Barlow Condensed', 'sans-serif'],

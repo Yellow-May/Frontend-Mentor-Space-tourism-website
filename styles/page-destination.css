@@ -1,3 +1,71 @@
 main.destination-page {
-   @apply text-white pb-10
+	@apply text-white pb-10 md:pt-8 md:px-8 lg:pt-12;
+}
+
+main.destination-page > h1 {
+	@apply font-barlow-condensed text-center uppercase tracking-[2.7px] mb-10 md:text-left md:mb-12 md:text-xl md:tracking-[3.38px] lg:mb-24 lg:pl-10 lg:text-2xl lg:tracking-[4.72px];
+}
+
+main.destination-page > h1 > span {
+	@apply font-bold mix-blend-soft-light;
+}
+
+main.destination-page > div {
+	@apply lg:grid lg:grid-cols-2;
+}
+
+main.destination-page > div > div:first-child {
+	@apply mx-auto mb-7 relative w-[170px] h-[170px] md:w-[300px] md:h-[300px] lg:w-[445px] lg:h-[445px] md:mb-12;
+}
+
+main.destination-page > div > div:last-child {
+	@apply lg:w-10/12 lg:mx-auto;
+}
+
+main.destination-page > div > div:last-child > nav {
+	@apply w-full font-barlow-condensed mb-14 md:mb-16 lg:mb-8;
+}
+
+main.destination-page > div > div:last-child > nav > ul {
+	@apply flex justify-center items-center space-x-8 lg:justify-start;
+}
+
+main.destination-page > div > div:last-child > nav > ul > li {
+	@apply pb-3;
+}
+
+main.destination-page > div > div:last-child > nav > ul > li.current {
+	@apply relative before:content-[''] before:absolute before:left-0 before:bottom-0 before:w-full before:h-[3px] before:bg-white;
+}
+
+main.destination-page > div > div:last-child > nav > ul > li > button {
+	@apply uppercase text-sm tracking-[2.36px] md:text-base md:tracking-[2.7px];
+}
+
+main.destination-page > div > div:last-child > div:nth-child(2) {
+	@apply pb-9 w-10/12 mx-auto mb-9 border-b border-b-gray text-center md:pb-12 md:w-9/12 lg:text-left lg:w-full lg:mb-7;
+}
+
+main.destination-page > div > div:last-child > div:nth-child(2) > h2 {
+	@apply uppercase font-bellefair text-6xl mb-4 md:text-[80px] lg:text-8xl lg:mb-8;
+}
+
+main.destination-page > div > div:last-child > div:nth-child(2) > p {
+	@apply font-barlow leading-6 text-sm text-light-gray md:text-base md:leading-7 lg:text-lg lg:leading-8;
+}
+
+main.destination-page > div > div:last-child > div:last-child {
+	@apply md:flex md:items-center md:justify-center md:space-x-24 lg:justify-start;
+}
+
+main.destination-page > div > div:last-child > div:last-child > div{
+   @apply text-center uppercase mb-10 md:mb-0 lg:text-left
+}
+
+main.destination-page > div > div:last-child > div:last-child > div > span{
+   @apply block mb-3 text-sm text-light-gray font-barlow-condensed tracking-[2.36px] lg:mb-2
+}
+
+main.destination-page > div > div:last-child > div:last-child > div > h3 {
+   @apply font-bellefair text-[28px]
 }

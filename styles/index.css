@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
 @import url(./layout-header.css);
 @import url(./page-home.css);
+@import url(./page-destination.css);
 
 @tailwind base;
 @tailwind components;

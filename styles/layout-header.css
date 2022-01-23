@@ -3,7 +3,7 @@ header {
 }
 
 header > nav {
-	@apply fixed top-0 z-50 bg-white bg-opacity-[10%] backdrop-blur-sm w-8/12 h-full p-7 transition-all duration-200 ease-linear -right-full md:relative md:right-0 md:h-20 md:p-0 md:flex md:items-center md:justify-center lg:after:content-[""] lg:after:absolute lg:after:top-1/2 lg:after:-left-[36%] lg:after:w-5/12 lg:after:h-px lg:after:bg-[#979797];
+	@apply fixed top-0 z-50 bg-white bg-opacity-[10%] backdrop-blur-lg w-8/12 h-full p-7 transition-all duration-200 ease-linear -right-full md:relative md:right-0 md:h-20 md:p-0 md:flex md:items-center md:justify-center lg:after:content-[""] lg:after:absolute lg:after:top-1/2 lg:after:-left-[36%] lg:after:w-5/12 lg:after:h-px lg:after:bg-[#979797];
 }
 
 header > nav::after {

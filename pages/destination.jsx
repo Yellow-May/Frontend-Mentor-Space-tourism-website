@@ -25,7 +25,7 @@ export default function DestinationPage() {
 
 			<div>
 				<div>
-					<Image src={data?.images.webp} alt={data?.name} layout='fill' />
+					<Image src={data?.images.webp} alt={data?.name} layout='fill' priority />
 				</div>
 
 				<div>

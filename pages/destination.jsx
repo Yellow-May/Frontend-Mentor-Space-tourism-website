@@ -7,7 +7,7 @@ const navList = ['Moon', 'Mars', 'Europa', 'Titan'];
 
 export default function DestinationPage() {
 	const router = useRouter();
-	const currentUrl = router.pathname === '/' ? 'home' : router.pathname.substring(1);
+	const currentUrl = router.pathname.substring(1);
 
 	// nav state
 	const [curr, setCurr] = React.useState('Moon');

@@ -1,9 +1,9 @@
 main.home-page {
-	@apply px-[5%] py-[7.5%] flex flex-col items-center justify-between md:justify-center md:space-y-48 lg:flex-row lg:justify-between lg:items-end lg:space-y-0 lg:px-[10%];
+	@apply px-[5%] py-[7.5%] flex flex-col items-center justify-between md:justify-center lg:flex-row lg:justify-between lg:items-center lg:px-[10%] lg:py-0;
 }
 
 main.home-page > div:first-child {
-	@apply text-center text-light-gray lg:text-left;
+	@apply text-center text-light-gray md:mb-52 lg:mb-0 lg:text-left;
 }
 
 main.home-page > div:first-child > h1 {
@@ -19,7 +19,7 @@ main.home-page > div:first-child > p {
 }
 
 main.home-page > div:last-child {
-	@apply w-[150px] h-[150px] md:w-[242px] md:h-[242px] lg:w-[274px] lg:h-[274px] rounded-full bg-white flex items-center justify-center;
+	@apply w-[150px] h-[150px] md:w-[242px] md:h-[242px] lg:w-[274px] lg:h-[274px] rounded-full bg-white flex items-center justify-center lg:mt-24;
 }
 
 main.home-page > div:last-child > span {

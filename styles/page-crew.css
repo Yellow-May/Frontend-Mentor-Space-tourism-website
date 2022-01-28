@@ -1,0 +1,59 @@
+main.crew-page {
+	@apply text-white pb-10 md:pt-8 md:px-8 lg:pt-12 lg:pb-0;
+}
+
+main.crew-page > h1 {
+	@apply font-barlow-condensed text-center uppercase tracking-[2.7px] mb-10 md:text-left md:mb-12 md:text-xl md:tracking-[3.38px] lg:mb-5 lg:pl-10 lg:text-2xl lg:tracking-[4.72px];
+}
+
+main.crew-page > h1 > span {
+	@apply font-bold mix-blend-soft-light;
+}
+
+main.crew-page > div {
+	@apply px-7 md:flex md:flex-col-reverse md:items-center lg:flex-row-reverse;
+}
+
+main.crew-page > div > div:first-child {
+	@apply relative w-full h-[223px] md:h-[572px] lg:w-10/12 lg:h-[712px] border-b-[2px] border-b-dark-gray md:border-b-0;
+}
+
+main.crew-page > div > div:last-child {
+	@apply md:flex md:flex-col-reverse md:items-center lg:mr-5;
+}
+
+main.crew-page > div > div:last-child > nav {
+	@apply w-full my-10 md:my-14;
+}
+
+main.crew-page > div > div:last-child > nav > ul {
+	@apply flex justify-center items-center space-x-8 lg:justify-start;
+}
+
+main.crew-page > div > div:last-child > nav > ul > li {
+	@apply w-4 h-4 rounded-full;
+}
+
+main.crew-page > div > div:last-child > nav > ul > li > button {
+	@apply w-full h-full rounded-full;
+}
+
+main.crew-page > div > div:last-child > div {
+	@apply text-center md:w-[75%] lg:w-full lg:text-left lg:mb-12;
+}
+
+main.crew-page > div > div:last-child > div > div {
+	@apply font-bellefair uppercase mb-5 md:mb-6 lg:mb-11;
+}
+
+main.crew-page > div > div:last-child > div > div > span {
+	@apply block mb-2 opacity-[50%] md:text-2xl md:mb-3 lg:text-3xl lg:mb-6;
+}
+
+main.crew-page > div > div:last-child > div > div > h2 {
+	@apply text-2xl md:text-[40px] lg:text-[56px];
+}
+
+main.crew-page > div > div:last-child > div > p {
+	@apply font-barlow leading-6 text-sm text-light-gray md:text-base md:leading-7 lg:text-lg lg:leading-8 lg:w-9/12;
+}

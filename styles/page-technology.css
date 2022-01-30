@@ -1,0 +1,63 @@
+main.technology-page {
+	@apply text-white pb-10 md:pt-8 lg:pt-12 lg:pb-5;
+}
+
+main.technology-page > h1 {
+	@apply font-barlow-condensed text-center uppercase tracking-[2.7px] mb-10 md:text-left md:mb-12 md:pl-8 md:text-xl md:tracking-[3.38px] lg:pl-20 lg:text-2xl lg:tracking-[4.72px];
+}
+
+main.technology-page > h1 > span {
+	@apply font-bold mix-blend-soft-light;
+}
+
+main.technology-page > div {
+	@apply lg:flex lg:flex-row-reverse lg:items-center lg:justify-center;
+}
+
+main.technology-page > div > div:first-child {
+	@apply relative w-full h-[170px] mb-10 md:h-[310px] md:mb-14 lg:mb-0 lg:h-[527px] lg:min-w-[515px] lg:max-w-[515px];
+}
+
+main.technology-page > div > div:last-child {
+	@apply lg:flex lg:pl-20;
+}
+
+main.technology-page > div > div:last-child > nav {
+	@apply mb-10 md:mb-14;
+}
+
+main.technology-page > div > div:last-child > nav > ul {
+	@apply flex items-center justify-center space-x-5 font-bellefair md:space-x-7 lg:flex-col lg:space-x-0 lg:space-y-8;
+}
+
+main.technology-page > div > div:last-child > nav > ul > li {
+	@apply w-10 h-10 rounded-full flex items-center justify-center md:w-[58px] md:h-[58px] lg:w-20 lg:h-20 text-white border;
+}
+
+main.technology-page > div > div:last-child > nav > ul > li.current {
+	@apply bg-white text-black border-0;
+}
+
+main.technology-page > div > div:last-child > nav > ul > li > button {
+	@apply text-base md:text-2xl lg:text-[32px];
+}
+
+main.technology-page > div > div:last-child > div {
+	@apply text-center w-11/12 mx-auto md:w-7/12 lg:text-left lg:w-9/12;
+}
+
+main.technology-page > div > div:last-child > div > div {
+	@apply uppercase mb-5 md:mb-6 lg:mb-8;
+}
+
+main.technology-page > div > div:last-child > div > div > span {
+	@apply block font-barlow-condensed text-xs text-light-gray tracking-[2.36px] mb-2.5 md:mb-5 md:text-base md:tracking-[2.7px];
+}
+
+main.technology-page > div > div:last-child > div > div > h2 {
+	@apply font-bellefair text-2xl leading-[1] md:text-[40px] lg:text-[56px];
+}
+
+main.technology-page > div > div:last-child > div > p {
+	@apply font-barlow text-[15px] text-light-gray leading-6 md:text-base md:leading-7 lg:text-lg lg:leading-8;
+}

@@ -3,6 +3,7 @@
 @import url(./page-home.css);
 @import url(./page-destination.css);
 @import url(./page-crew.css);
+@import url(./page-technology.css);
 
 @tailwind base;
 @tailwind components;

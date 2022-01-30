@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 import allData from '../data/data.json';
-import useWindowDimensions from '../hooks/use-window-dimensions';
 
 export default function TechnologyPage() {
 	const router = useRouter();
@@ -17,9 +16,6 @@ export default function TechnologyPage() {
 		return allData[currentUrl][curr];
 	}, [curr, currentUrl]);
 
-	// get current screen size
-	const { width } = useWindowDimensions();
-
 	return (
 		<main className='technology-page'>
 			<h1>
@@ -28,12 +24,11 @@ export default function TechnologyPage() {
 
 			<div>
 				<div>
-					<Image
-						src={width >= 1024 ? data?.images.portrait : data?.images.landscape}
-						alt={data?.name}
-						layout='fill'
-						priority
-					/>
+					<Image src={data?.images.landscape} alt={data?.name} layout='fill' priority />
+				</div>
+
+				<div>
+					<Image src={data?.images.portrait} alt={data?.name} layout='fill' priority />
 				</div>
 
 				<div>

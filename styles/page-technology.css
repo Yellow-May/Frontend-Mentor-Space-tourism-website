@@ -15,7 +15,11 @@ main.technology-page > div {
 }
 
 main.technology-page > div > div:first-child {
-	@apply relative w-full h-[170px] mb-10 md:h-[310px] md:mb-14 lg:mb-0 lg:h-[527px] lg:min-w-[515px] lg:max-w-[515px];
+	@apply relative w-full h-[170px] mb-10 md:h-[310px] md:mb-14 lg:hidden;
+}
+
+main.technology-page > div > div:nth-child(2) {
+	@apply relative hidden lg:mb-0 lg:h-[527px] lg:min-w-[515px] lg:max-w-[515px] lg:flex lg:pl-20;
 }
 
 main.technology-page > div > div:last-child {
